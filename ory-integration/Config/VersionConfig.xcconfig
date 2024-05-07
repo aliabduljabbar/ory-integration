@@ -1,0 +1,12 @@
+//
+//  VersionConfig.xcconfig
+//  ory-integration
+//
+//  Created by Ali Abdul Jabbar on 05/05/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+VERSION_NUMBER = 1.0
+BUILD_NUMBER = 1

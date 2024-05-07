@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>BaseURL</key>
+	<string>https://${BASE_URL}/</string>
+	<key>Api Key</key>
+	<string>$(API_KEY)</string>
 </dict>
 </plist>

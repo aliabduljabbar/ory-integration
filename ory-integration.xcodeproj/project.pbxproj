@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D784F2A2BE9370D005632ED /* OryCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0D784F292BE9370D005632ED /* OryCore */; };
+		0D784F2C2BE938A3005632ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F2B2BE938A3005632ED /* ContentView.swift */; };
+		0D784F302BE93D17005632ED /* AppSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F2F2BE93D17005632ED /* AppSceneState.swift */; };
+		0D784F322BE93E5F005632ED /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F312BE93E5F005632ED /* AppStateManager.swift */; };
+		0D784F342BE93FAA005632ED /* AuthNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F332BE93FAA005632ED /* AuthNavigationView.swift */; };
+		0D784F362BE93FC6005632ED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F352BE93FC6005632ED /* LoginView.swift */; };
+		0D784F382BE952EF005632ED /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F372BE952EF005632ED /* FormView.swift */; };
+		0D784F3A2BE958A4005632ED /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F392BE958A4005632ED /* SignupView.swift */; };
+		0D784F3C2BE959EE005632ED /* FormViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F3B2BE959EE005632ED /* FormViewType.swift */; };
+		0D784F3E2BE95AC0005632ED /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D784F3D2BE95AC0005632ED /* OnboardingView.swift */; };
+		0DFFE47D2BE9B8AB0070219C /* BottomErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE47C2BE9B8AB0070219C /* BottomErrorView.swift */; };
+		0DFFE47F2BE9C0120070219C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE47E2BE9C0120070219C /* SplashView.swift */; };
+		0DFFE4812BE9C1A00070219C /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE4802BE9C1A00070219C /* MainNavigationView.swift */; };
+		0DFFE4842BE9C1E40070219C /* MainTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE4832BE9C1E40070219C /* MainTabScreen.swift */; };
+		0DFFE4862BE9C2960070219C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE4852BE9C2960070219C /* HomeView.swift */; };
+		0DFFE4882BE9C2A50070219C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE4872BE9C2A50070219C /* ProfileView.swift */; };
+		0DFFE48D2BE9C4AB0070219C /* IndicatorHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFE48C2BE9C4AB0070219C /* IndicatorHaptic.swift */; };
 		415999BD2BE7CB3B000991FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415999BC2BE7CB3B000991FE /* AppDelegate.swift */; };
 		415999BF2BE7CB3B000991FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415999BE2BE7CB3B000991FE /* SceneDelegate.swift */; };
 		415999C12BE7CB3B000991FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415999C02BE7CB3B000991FE /* ViewController.swift */; };
@@ -36,6 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D784F272BE93600005632ED /* OryCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OryCore; sourceTree = "<group>"; };
+		0D784F2B2BE938A3005632ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D784F2F2BE93D17005632ED /* AppSceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSceneState.swift; sourceTree = "<group>"; };
+		0D784F312BE93E5F005632ED /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		0D784F332BE93FAA005632ED /* AuthNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigationView.swift; sourceTree = "<group>"; };
+		0D784F352BE93FC6005632ED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0D784F372BE952EF005632ED /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		0D784F392BE958A4005632ED /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		0D784F3B2BE959EE005632ED /* FormViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewType.swift; sourceTree = "<group>"; };
+		0D784F3D2BE95AC0005632ED /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0DFFE47C2BE9B8AB0070219C /* BottomErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomErrorView.swift; sourceTree = "<group>"; };
+		0DFFE47E2BE9C0120070219C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0DFFE4802BE9C1A00070219C /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		0DFFE4832BE9C1E40070219C /* MainTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabScreen.swift; sourceTree = "<group>"; };
+		0DFFE4852BE9C2960070219C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0DFFE4872BE9C2A50070219C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0DFFE48C2BE9C4AB0070219C /* IndicatorHaptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorHaptic.swift; sourceTree = "<group>"; };
 		415999B92BE7CB3B000991FE /* ory-integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ory-integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415999BC2BE7CB3B000991FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		415999BE2BE7CB3B000991FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,8 @@
 		415999D92BE7CB3D000991FE /* ory-integrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ory-integrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415999DD2BE7CB3D000991FE /* ory_integrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ory_integrationUITests.swift; sourceTree = "<group>"; };
 		415999DF2BE7CB3D000991FE /* ory_integrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ory_integrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41599A062BE7F80C000991FE /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		41599A072BE7F9A8000991FE /* VersionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = VersionConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D784F2A2BE9370D005632ED /* OryCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +113,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D784F282BE9370D005632ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DFFE4822BE9C1C80070219C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0DFFE4802BE9C1A00070219C /* MainNavigationView.swift */,
+				0DFFE4832BE9C1E40070219C /* MainTabScreen.swift */,
+				0DFFE4852BE9C2960070219C /* HomeView.swift */,
+				0DFFE4872BE9C2A50070219C /* ProfileView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0DFFE4892BE9C4390070219C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0D784F332BE93FAA005632ED /* AuthNavigationView.swift */,
+				0D784F3D2BE95AC0005632ED /* OnboardingView.swift */,
+				0D784F352BE93FC6005632ED /* LoginView.swift */,
+				0D784F392BE958A4005632ED /* SignupView.swift */,
+				0D784F372BE952EF005632ED /* FormView.swift */,
+				0D784F3B2BE959EE005632ED /* FormViewType.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0DFFE48A2BE9C4530070219C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0DFFE47E2BE9C0120070219C /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0DFFE48B2BE9C48A0070219C /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				0D784F2F2BE93D17005632ED /* AppSceneState.swift */,
+				0D784F312BE93E5F005632ED /* AppStateManager.swift */,
+			);
+			path = AppState;
+			sourceTree = "<group>";
+		};
 		415999B02BE7CB3B000991FE = {
 			isa = PBXGroup;
 			children = (
+				0D784F272BE93600005632ED /* OryCore */,
 				415999BB2BE7CB3B000991FE /* ory-integration */,
 				415999D22BE7CB3D000991FE /* ory-integrationTests */,
 				415999DC2BE7CB3D000991FE /* ory-integrationUITests */,
 				415999BA2BE7CB3B000991FE /* Products */,
+				0D784F282BE9370D005632ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +189,18 @@
 				415999BC2BE7CB3B000991FE /* AppDelegate.swift */,
 				415999BE2BE7CB3B000991FE /* SceneDelegate.swift */,
 				415999C02BE7CB3B000991FE /* ViewController.swift */,
+				0D784F2B2BE938A3005632ED /* ContentView.swift */,
+				0DFFE48B2BE9C48A0070219C /* AppState */,
+				0DFFE48A2BE9C4530070219C /* Splash */,
+				0DFFE4892BE9C4390070219C /* Auth */,
+				0DFFE4822BE9C1C80070219C /* Main */,
+				0DFFE47C2BE9B8AB0070219C /* BottomErrorView.swift */,
+				0DFFE48C2BE9C4AB0070219C /* IndicatorHaptic.swift */,
 				415999C22BE7CB3B000991FE /* Main.storyboard */,
 				415999C52BE7CB3C000991FE /* Assets.xcassets */,
 				415999C72BE7CB3C000991FE /* LaunchScreen.storyboard */,
 				415999CA2BE7CB3C000991FE /* Info.plist */,
+				41599A082BE7F9C6000991FE /* Config */,
 			);
 			path = "ory-integration";
 			sourceTree = "<group>";
@@ -127,6 +222,15 @@
 			path = "ory-integrationUITests";
 			sourceTree = "<group>";
 		};
+		41599A082BE7F9C6000991FE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				41599A062BE7F80C000991FE /* Config.xcconfig */,
+				41599A072BE7F9A8000991FE /* VersionConfig.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +247,9 @@
 			dependencies = (
 			);
 			name = "ory-integration";
+			packageProductDependencies = (
+				0D784F292BE9370D005632ED /* OryCore */,
+			);
 			productName = "ory-integration";
 			productReference = 415999B92BE7CB3B000991FE /* ory-integration.app */;
 			productType = "com.apple.product-type.application";
@@ -259,8 +366,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				415999C12BE7CB3B000991FE /* ViewController.swift in Sources */,
+				0D784F322BE93E5F005632ED /* AppStateManager.swift in Sources */,
+				0D784F2C2BE938A3005632ED /* ContentView.swift in Sources */,
+				0D784F302BE93D17005632ED /* AppSceneState.swift in Sources */,
+				0DFFE48D2BE9C4AB0070219C /* IndicatorHaptic.swift in Sources */,
+				0D784F3A2BE958A4005632ED /* SignupView.swift in Sources */,
+				0DFFE4862BE9C2960070219C /* HomeView.swift in Sources */,
 				415999BD2BE7CB3B000991FE /* AppDelegate.swift in Sources */,
+				0D784F382BE952EF005632ED /* FormView.swift in Sources */,
+				0DFFE47D2BE9B8AB0070219C /* BottomErrorView.swift in Sources */,
+				0D784F342BE93FAA005632ED /* AuthNavigationView.swift in Sources */,
+				0DFFE4882BE9C2A50070219C /* ProfileView.swift in Sources */,
+				0D784F362BE93FC6005632ED /* LoginView.swift in Sources */,
+				0DFFE4842BE9C1E40070219C /* MainTabScreen.swift in Sources */,
+				0D784F3E2BE95AC0005632ED /* OnboardingView.swift in Sources */,
 				415999BF2BE7CB3B000991FE /* SceneDelegate.swift in Sources */,
+				0D784F3C2BE959EE005632ED /* FormViewType.swift in Sources */,
+				0DFFE4812BE9C1A00070219C /* MainNavigationView.swift in Sources */,
+				0DFFE47F2BE9C0120070219C /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +441,7 @@
 /* Begin XCBuildConfiguration section */
 		415999E12BE7CB3D000991FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41599A062BE7F80C000991FE /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -381,6 +505,7 @@
 		};
 		415999E22BE7CB3D000991FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41599A062BE7F80C000991FE /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -450,6 +575,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +604,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +734,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D784F292BE9370D005632ED /* OryCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OryCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 415999B12BE7CB3B000991FE /* Project object */;
 }

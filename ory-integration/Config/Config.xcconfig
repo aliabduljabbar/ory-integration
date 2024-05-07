@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  ory-integration
+//
+//  Created by Ali Abdul Jabbar on 05/05/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "VersionConfig.xcconfig"
+
+BASE_URL=amazing-hoover-wz0qn5u54a.projects.oryapis.com
+API_KEY=ory_pat_Z8ZxmeWWaEqo2i52DBA3H2J5qxCkfVVS
